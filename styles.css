@@ -1,0 +1,23 @@
+body { font-family: -apple-system, BlinkMacSystemFont, sans-serif; background:#fff; color:#111; margin:0; }
+.tabs { display:flex; justify-content:space-around; margin:10px 0; }
+.tabs button { padding:10px; border:none; background:#eee; border-radius:8px; }
+.tabs button.active { background:#ccc; }
+
+.clock-display { font-size:48px; text-align:center; margin:20px 0; }
+
+#sliderBox { margin:10px 20px; }
+#sliderHours { width:100%; }
+
+.btn-large { padding:10px 16px; margin:4px; border:none; border-radius:10px; background:#000; color:#fff; font-weight:bold; cursor:pointer; }
+.btn-large:disabled { background:#888; cursor:default; }
+
+#lapList { margin-top:10px; max-height:150px; overflow-y:auto; font-size:14px; }
+
+.alarm-card { display:flex; justify-content:space-between; align-items:center; padding:10px 14px; margin:6px 0; border-radius:12px; background:#f2f2f2; font-size:16px; }
+.alarm-time { font-weight:500; }
+.toggle { width:50px; height:28px; border-radius:14px; background:#ccc; position:relative; cursor:pointer; transition: background 0.2s; }
+.toggle.on { background:#34c759; }
+.thumb { position:absolute; top:2px; left:2px; width:24px; height:24px; border-radius:50%; background:#fff; transition: transform 0.2s; }
+.toggle.on .thumb { transform:translateX(22px); }
+
+.alarm-input { display:flex; gap:8px; margin-bottom:10px; }
